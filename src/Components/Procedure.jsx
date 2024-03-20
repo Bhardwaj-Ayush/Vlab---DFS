@@ -13,27 +13,27 @@ export default function Procedure() {
             </h2>
           </div>
           <div className="desc1 font-Mooli">
-            <p className="font-bold mx-20 text-xl text-justify">
+            <p className="font-bold md:mx-20 md:text-xl text-sm text-justify">
               DFS starts from a source node and explores as far as possible
               along each branch before backtracking. It systematically explores
               nodes in depth, visiting the deepest unvisited node first.
             </p>
-            <div className="flex space-x-2 my-2 mx-20">
+            <div className="flex space-x-2 md:my-2 md:mx-20">
               <BiSolidRightArrow className="mt-1" />
               <p>
-                <strong className="text-xl">
+                <strong className="md:text-xl text-base">
                   HOW DFS WORKS : The basic theory and steps of DFS:
                 </strong>
               </p>
             </div>
-            <div className="flex mx-24">
+            <div className="flex md:mx-24">
               <BiSolidRightArrow className="mt-1" />
               <p>
-                <strong className="text-xl">Initialization:</strong>
+                <strong className="md:text-xl text-base">Initialization:</strong>
               </p>
             </div>
             <div>
-              <ul className="mx-28">
+              <ul className="md:mx-28">
                 <li className="flex ml-4">
                   <PiDotOutlineFill className="mt-1" />
                   <span>Choose a starting node as the source.</span>
@@ -52,14 +52,14 @@ export default function Procedure() {
                 </li>
               </ul>
             </div>
-            <div className="flex mx-24">
+            <div className="flex md:mx-24">
               <BiSolidRightArrow className="mt-1" />
               <p>
-                <strong className="text-xl">Exploration:</strong>
+                <strong className="md:text-xl text-sm">Exploration:</strong>
               </p>
             </div>
             <div>
-              <ul className="mx-28">
+              <ul className="md:mx-28">
                 <li className="flex ml-4">
                   <PiDotOutlineFill className="mt-1" />
                   <span>While the stack is not empty:</span>
@@ -85,14 +85,14 @@ export default function Procedure() {
                 </li>
               </ul>
             </div>
-            <div className="flex mx-20">
+            <div className="flex md:mx-20">
               <BiSolidRightArrow className="mt-1" />
               <p>
-                <strong className="text-xl">Termination:</strong>
+                <strong className="md:text-xl text-sm">Termination:</strong>
               </p>
             </div>
             <div>
-              <ul className="mx-32">
+              <ul className="md:mx-32">
                 <li className="flex">
                   <PiDotOutlineFill className="mt-1" />
                   <span>

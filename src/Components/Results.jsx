@@ -11,7 +11,7 @@ function Results() {
             </div>
             <div className="desc1">
               <p className="desc font-Robo">
-              DFS explores graph nodes deeply, traversing as far as possible along each branch before backtracking. It prioritizes depth over breadth, making it memory-efficient. It's used for tasks like topological sorting, finding connected components, and cycle detection.
+              Hence,by employing the Depth-First Search (DFS) Algorithm, we can systematically traverse through all nodes or vertices of a graph by diving as deep as possible along each branch before backtracking. DFS prioritizes exploring the deepest unexplored nodes first, gradually backtracking only when necessary to fully uncover the graph's structure. This method of exploration consumes less memory compared to breadth-first search (BFS) as it delves deeply into the graph before expanding outward, making it efficient for certain types of graph traversal tasks.
               </p>
             </div>
           </div>
